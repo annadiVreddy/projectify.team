@@ -1,0 +1,30 @@
+<h1 class="">Task History</h1>
+
+<div class="table-responsive">
+ <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>TaskID</th>
+        <th>Title</th>
+        <th>Created Date</th>
+        <th>Deadline</th>
+        <th>completed Date</th>
+        <th>Worker</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="t in taskHistory" data-toggle="collapse" data-target="#t.taskId">
+        <td>{{t.taskId}}</td>
+        <td>{{t.title}}</td>
+        <td>{{t.createdDate}}</td>
+        <td>{{t.originalDate}}</td>
+        <td>{{t.completedDate}}</td>
+        <td>{{t.worker}}</td>
+        <td>{{t.status}}</td>
+    </tr>
+    <tr ng-repeat="t in taskHistory" id="t.taskId" class="modal fade">
+    </tr>
+    </tbody>
+  </table>
+</div>

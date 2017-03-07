@@ -1,0 +1,437 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #ffffff !important;
+    padding:1% 1%;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+#subheaderid{
+    position: relative;
+    top:0%;
+}
+
+#headerid{
+    width:100%;
+    position:relative;
+}
+
+
+/*.loginbackground{
+    position:relative;
+    background-image: url("loginbackground.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height:1000px;
+    opacity: 0.6;
+}*/
+
+.loginboard{
+    background-color: #ffffff;
+    border:1px solid dimgrey;
+    width:85%;
+    height:380px;
+    padding:10% 10% 14%;
+    margin-left:7%;
+}
+
+.loginform{
+    position:relative;
+    top:20%;;
+}
+
+.searchsubmitform{
+    margin-left:10%;
+    display:inline-block;
+    width:60%;
+}
+
+.sitecolor{
+    background-color: #181615;
+}
+
+.colorwhite{
+    color:#FFFFFF;
+}
+
+.bgwhite{
+    background-color:#FFFFFF;
+}
+
+.mrgntop2per{
+    margin-top:2%;
+}
+
+.mrgnbtm2per{
+    margin-bottom:2%;
+}
+
+.fullwidth{
+    width:100%;
+}
+
+.zeropadding:{
+    padding:0%;
+}
+
+#navsubmitbtnid{
+    width:90%;
+}
+#navsubmitbtnid input{
+    width:100%;
+}
+
+.subnavlist li{
+    display:inline;
+    color:#FFFFFF;
+    padding:2% 7%;
+    font-size: 1.2em;
+}
+
+.subnavlist li a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.subnavactive{
+    color: green;
+}
+
+#analysistableid thead th{
+    background-color:#4A235A;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+#analysistableid tbody td{
+    text-align: center;
+}
+
+.formwellcolor{
+    background-color: #FDFEFE;
+}
+
+.projecttabcolor{
+    background-color: green !important;
+    color:white !important;
+}
+
+.btnwidth{
+    width:30%;
+    height:40px;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.daysleft{
+    font-size:2em;
+    color:orangered;
+}
+
+.projtimelinescrl{
+    height:300px;
+    overflow-y: scroll;
+}
+
+.projtanalysscrl{
+    height:300px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.zeropadding{
+    padding:0px;   
+}
+
+.timelinedate{
+    display: inline-block;
+    width: 20%;
+    padding: 1%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.timelinetext{
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    font-size: 1.3em;
+    margin-left: -1%;
+    padding: 1%;
+    width: 80%;
+}
+
+.displayinlineblk{
+    display:inline-block;
+}
+
+.analystableview{
+    width:60%;
+}
+
+.analystableview table thead{
+    background-color: cadetblue;
+    border-collapse: collapse;
+}
+
+.analystableview table th{
+    text-align: center;
+}
+
+.analystableview table td{
+    text-align: center;
+}
+
+.piechart{
+    margin-left:4%;
+}
+
+.newteambtn{
+   width:50%;
+   padding:1% 0%;
+   font-size:2em;
+   margin-left:24%;
+   background-color:darkorange;
+}
+
+.newteamdiv{
+    clear:both;
+    margin-top:2%;
+    padding:2%;
+}
+
+.newmemdiv{
+    clear:both;
+    margin-top:2%;
+    padding:2%;
+}
+
+.clear{
+    clear:both;
+}
+
+#formcontainer{
+    height:550px;
+    overflow-y: hidden;
+}
+
+#formbox{
+   position:relative; 
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float:right;
+}
+
+.box{
+    position:relative;
+}
+
+.ongoingtaskbox{
+    border:1px solid gray;
+    width:100%;
+    height:300px;
+    background-color: white;
+}
+
+#ongoingtaskid{
+    overflow-Y: scroll;
+    width:100%;
+}
+
+#todotaskid{
+    overflow-y: scroll;
+    width:100%;
+}
+
+#completedtaskid{
+    overflow-x: scroll;
+    width:100%;
+}
+
+.taskbox{
+    display:inline-block;
+    width:200px;
+    margin-right:5px;
+}
+
+.wrapper{
+    /*overflow: hidden;*/
+    height:300px;
+}
+
+.bckgroundred{
+    background-color: red !important;
+}
+
+.bckgroundgreen{
+    background-color: green !important;
+}
+
+.todotaskhead{
+    display:inline;
+    color:black;
+    font-size:2em;
+}
+
+.default-heading{
+    padding:4%;
+}
+
+.deleteimage{
+    background-image: url("/images/download.jpg");
+    background-repeat: no-repeat;
+    width:30px;
+    height:30px;
+}
+
+.addTask{
+    float:right;
+    display:inline-block;
+}
+
+.fade-in-out {
+  transition: 1s linear all;  
+  opacity: 1;
+}
+
+.fade-in-out.ng-hide {
+  opacity: 0;
+}
+
+.red{
+    color:red;
+}
+
+.mobileshow{
+    display:block !important;
+}
+
+.mobilehide{
+    display:none !important;
+}
+
+#subheaderid.well-sm{
+    height:56px;
+}
+
+
+
+
+ .loginscreen input{
+        width: 260px;
+        height: 60px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px #719ECE;
+        margin-left: 14%;
+    }
+
+    .loginscreen button {
+        width: 260px;
+        height: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 14%;
+        font-size: 1em;
+    }
+
+.btn-primary{
+    background-color:#FFB300;
+}
+
+.btn-primary:active{
+    background-color:#FFB300;
+}
+
+.btn-primary:hover{
+    background-color:#FFB300;
+}
+
+.btn-primary:visited{
+    background-color:#FFB300;
+}
+
+.loginlogo{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+}
+
+ body{
+    background-color: #FF6E40;
+    padding:10% 10% !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobileshow{
+        display:none !important;
+    }
+    .mobilehide{
+        display:inline!important;
+    }
+    
+    .loginboard{
+        position:relative;
+        background-color: #ffffff;
+        border:1px solid dimgrey;
+        width:25%;
+        height:75%;
+        left:70%;
+        top:16%;
+        padding:10% 20px;
+        margin-left:0px;
+    }
+    
+    #subheaderid.well-sm{
+        height:inherit;
+    }
+    
+    body{
+        background-color: #FF6E40;
+        padding:10% 31% !important;
+    }
+    
+    .loginscreen input{
+        width: 550px;
+        height: 65px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        box-shadow: 0 0 10px #719ECE;
+        margin-left: 14%;
+    }
+
+    .loginscreen button {
+        width: 550px;
+        height: 65px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 14%;
+        font-size: 2em;
+    }
+    
+    .loginlogo{
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: 25px;
+        color: white;
+    }
+}
+
+
+
+

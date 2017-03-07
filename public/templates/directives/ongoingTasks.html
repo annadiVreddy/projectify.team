@@ -1,0 +1,37 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <div class="todotaskhead">Ongoing Tasks</div>
+   </div>
+   <div id="ongoingtaskid" class="panel-body wrapper">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Project</th>
+            <th>deadLine</th>
+            <th>worker</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="t in ongoingTasks">
+                <td>{{t.title}}</td>
+                <td>{{t.description}}</td>
+                <td>{{t.project}}</td>
+                <td>{{t.deadline}}</td>
+                <td>{{t.worker}}</td>
+               <td>
+                   <div ng-show= "changeStatusIndex != $index">
+                       <button type="button" class="btn btn-info" ng-click="changeStatusFun($index)">Chnage Status</button>
+                   </div>
+                   <div ng-hide = "chnagingStatusIndex != $index">
+                       <button type="button" class="btn btn-danger" ng-click="pushBack($index,t.taskId)">Push Back</button>
+                       <button type="button" class="btn btn-success" ng-click="completed($index, t.taskId)">Completed</button>
+                   </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
